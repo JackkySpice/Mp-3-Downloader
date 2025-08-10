@@ -48,7 +48,7 @@ npm start
 
 This repo includes a `render.yaml` blueprint. Click to deploy:
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=REPLACE_WITH_YOUR_GITHUB_REPO_URL)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/JackkySpice/Mp-3-Downloader/tree/main/mp3-downloader)
 
 - The web service runs Node 18, builds the React client, and serves it via Express
 - No database required
