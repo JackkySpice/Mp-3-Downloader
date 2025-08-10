@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: mp3-downloader
+    env: node
+    plan: free
+    buildCommand: |
+      cd server && npm ci
+      cd ../client && npm ci && npm run build
+    startCommand: node server/index.js
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 18

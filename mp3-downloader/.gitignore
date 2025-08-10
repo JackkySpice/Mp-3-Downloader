@@ -1,0 +1,32 @@
+# Node
+node_modules
+npm-debug.log*
+.yarn*
+.pnpm-store
+
+# Logs
+logs
+*.log
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Build outputs
+/dist
+/build
+workspace.code-workspace
+
+# Client
+/client/node_modules
+/client/dist
+
+# Server
+/server/node_modules
+/server/dist
+/server/tmp
+
+# OS
+.DS_Store
+Thumbs.db

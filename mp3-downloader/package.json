@@ -1,0 +1,15 @@
+{
+  "name": "mp3-downloader",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "setup": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "build": "npm --prefix client run build",
+    "start": "NODE_ENV=production node server/index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
